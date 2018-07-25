@@ -13,4 +13,9 @@ public class UIManagerStubModule extends ReactContextBaseJavaModule {
     public String getName() {
         return "UIManager";
     }
+    
+    @ReactMethod
+    public void foo() {
+
+    }
 }
